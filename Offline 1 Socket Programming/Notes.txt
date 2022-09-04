@@ -1,0 +1,4 @@
+Create root & log directory in your machine
+In your browser type "localhost:8082" after running server
+Then download any file or go to any directory
+Upload files from Java environmemt

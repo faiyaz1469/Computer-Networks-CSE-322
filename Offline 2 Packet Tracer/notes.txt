@@ -1,0 +1,5 @@
+If there are x routers, then x/x+2/x+3 times simulation will be unsuccessful
+
+Task b - 
+Router 0 has static routing - 1st two boxes tell the destination
+Rest have dynamic routing

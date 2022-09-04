@@ -1,0 +1,40 @@
+Line no 1: Token <ID> Lexeme x found
+
+Scopetable # 1
+ 1 ---> <x : ID> 
+
+Line no 1: Token <ASSIGNOP> Lexeme = found
+
+Line no 1: Token <ID> Lexeme a found
+
+Scopetable # 1
+ 1 ---> <x : ID> 
+ 6 ---> <a : ID> 
+
+Line no 1: Token <RELOP> Lexeme > found
+
+Line no 1: Token <ID> Lexeme b found
+
+Scopetable # 1
+ 0 ---> <b : ID> 
+ 1 ---> <x : ID> 
+ 6 ---> <a : ID> 
+
+Line no 1: Token <ID> Lexeme a found
+
+a already exists in current ScopeTable
+
+Line no 1: Token <ID> Lexeme b found
+
+b already exists in current ScopeTable
+
+Line no 1: Token <SEMICOLON> Lexeme ; found
+
+Scopetable # 1
+ 0 ---> <b : ID> 
+ 1 ---> <x : ID> 
+ 6 ---> <a : ID> 
+
+
+total line : 1
+total error : 0
